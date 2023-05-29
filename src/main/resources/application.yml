@@ -1,0 +1,12 @@
+togglz:
+  features:
+    DISCOUNT_APPLIED:
+      enabled: true
+  features-file: 'file:\\D:\others\toggle\src\main\resources\templates\feature.properties'
+  console:
+    secured: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'togglz'
